@@ -83,6 +83,7 @@ void CImgProView::OnDraw(CDC* pDC)
 			{
 				gray = image[i*width+j];
 				pDC->SetPixel( j, i, RGB(gray,gray,gray));
+
 			}
 		}
 	}
@@ -102,6 +103,7 @@ void CImgProView::OnDraw(CDC* pDC)
 	}
 	if(flag == 1)
 	{
+		BYTE r, g, b;
 		BYTE gray;
 		if(huiimg)
 		{
@@ -109,8 +111,19 @@ void CImgProView::OnDraw(CDC* pDC)
 			{
 				for( j=0; j<width; j++)
 				{
-					gray = huiimg[i*width+j];
-					pDC->SetPixel( j+width, i, RGB(gray,gray,gray));
+					if (huiimg[i * width + j] == 0) {
+						gray = 255;
+						pDC->SetPixel(j + width + 10, i, RGB(gray, gray, gray));
+					}
+					else
+					{
+						b = rgbimg[i * 3 * width + j*3];
+						g = rgbimg[i * 3 * width + j *3+ 1];
+						r = rgbimg[i * 3 * width + j *3+ 2];
+						pDC->SetPixel(j + width + 10,i,RGB(r, g, b));
+					}
+					
+
 				}
 			}
 		}
@@ -167,7 +180,7 @@ void CImgProView::OnFileOpen()
 	CFileDialog MyFDlg(TRUE, NULL,NULL, OFN_HIDEREADONLY, NULL,NULL );
 
 	MyFDlg.m_ofn.lpstrFilter = "(*.lst;*.raw;*.bmp)\0*.lst;*.raw;*.bmp\0";
-	MyFDlg.m_ofn.lpstrInitialDir = "C:\\Users\\32353\\Desktop\\点击刷新\\研究性作业2020\\图像";
+	MyFDlg.m_ofn.lpstrInitialDir = "C:\\Users\\娼樺厛閾\Desktop\\WPSLIB\\鍥惧儚澶勭悊澶т綔涓歕\3\\3\\鍥惧儚";
 
 	flag=0;
 	bmpflag = 0;
@@ -371,31 +384,25 @@ void CImgProView::OnFileSave()
 
 void CImgProView::Color()
 {
-	// TODO: 在此添加命令处理程序代码
+	// TODO: 鍦ㄦ娣诲姞鍛戒护澶勭悊绋嬪簭浠ｇ爜
     BYTE r,g,b;
 	int i,j;
-/*高成鑫12.19.20：29注释，为了写颜色分割的程序
 	double hg,hr;
-	double max=0.0;
-	huiimg= new BYTE[width*height];
-	for( i=0; i<height; i++ )
-		for( j=0; j<3*width; j=j+3 )
-		{
-		
-			huiimg[i * width + j / 3] = huiimg[i * width + j / 3] / 2;
-		}
-*/
-//***************以下部分是12.19新加的*******************
+	double max1=0.0;
+	BYTE gray;
+	BYTE* huiimg1;
+	gray = 0;
+	
 	huiimg = new BYTE[width * height];
 	huiimg1 = new BYTE[width * height];
 	BYTE max, min, delta;
 	double h, s, v;
 
-	for (int i = 0; i < height;i++)
+	for (int i = 0; i < height; i++)
 	{
 		for (int j = 0; j < width; j++)
 		{
-			b = rgbimg[i * 3 * width + j * 3];//i*3干嘛
+			b = rgbimg[i * 3 * width + j * 3];//i*3骞插槢
 			g = rgbimg[i * 3 * width + j * 3 + 1];
 			r = rgbimg[i * 3 * width + j * 3 + 2];
 
@@ -406,7 +413,8 @@ void CImgProView::Color()
 			min = (min < b) ? min : b;
 
 			delta = max - min;
-			if (delta == 0)h = 0;
+			if (delta == 0)
+				h = 0;
 			else
 			{
 				if (max == r && g >= b)
@@ -430,11 +438,11 @@ void CImgProView::Color()
 				h += 360;
 			if ((h <= 270.0 && 208.0 <= h) && s > 0.52)
 			{
-				huiimg[i * width + j] = 255;
+				huiimg1[i * width + j] = 255;
 			}
 			else
 			{
-				huiimg[i * width + j] = 0;
+				huiimg1[i * width + j] = 0;
 			}
 			if ((h <= 270.0 && 205.0 <= h) && s > 0.48)
 			{
@@ -447,7 +455,111 @@ void CImgProView::Color()
 		}
 
 	}
-//*******************************************************
+	BYTE* tempout;
+	BYTE* tempout2;
+	tempout = new BYTE[width * height];
+	tempout2 = new BYTE[width * height];
+	
+	erosion(huiimg1, width, height, tempout,1);         //first鑵愯殌then鑶ㄨ儉
+	dilation(tempout, width, height, tempout2,2);
+	erosion(tempout2, width, height, tempout, 1);
+	dilation(tempout, width, height, huiimg1, 1);
+
+	int maxh, maxw, minh, minw;
+	maxw = height / 10; maxh = width / 10; minh = 9 * height / 10; minw = 9 * width / 10;
+
+	for (i = 0; i < height; i++) {
+		for (j = 0; j < width; j++) {
+			if (i > height * 3 / 10 && i < height * 19 / 22 && j>width * 3 / 10 && j < 19 * width / 22) {
+				if (huiimg1[i * width + j] == 255 && j < minw) {
+					minw = j;
+				}
+				if (huiimg1[i * width + j] == 255 && j > maxw) {
+					maxw = j;
+				}
+			}
+		}
+	}
+
+	for (i = 0; i < height; i++) {
+		for (j = 0; j < width; j++) {
+			if (i > height * 3 / 10 && i < height * 19 / 22 && j>width * 3 / 10 && j < 19 * width / 22) {
+				if (huiimg1[i * width + j] == 255 && i < minh) {
+					minh = i;
+				}
+				if (huiimg1[i * width + j] == 255 && i > maxh) {
+					maxh = i;
+				}
+			}
+		}
+	}
+
+	for (i = 0; i < height; i++) {
+		for (j = 0; j < width; j++) {
+			if (i >= minh && i <= maxh && j <= maxw && j >= minw) {
+				huiimg[i * width + j] = 255;
+			}
+			else {
+				huiimg[i * width + j] = 0;
+			}
+		}
+	}
 		flag=1;
 		OnInitialUpdate();
+}
+
+void CImgProView::dilation(BYTE* image, int w, int h, BYTE* outImg, int p)
+{
+	int rept;
+	memcpy(outImg, image, sizeof(BYTE) * width * height);
+	int i, j, m, n;
+	BYTE flag;
+	for (rept = 0; rept < p; rept++) {
+		for (i = 1; i < h - 1; i++) {
+			for (j = 1; j < w - 1; j++) {
+				if (image[i * w + j] == 0) {
+					flag = 0;
+					for (m = -1; m < 2; m++) {
+						for (n = -1; n < 2; n++) {
+							if (image[(i + m) * w + j + n] == 255) {
+								flag++;
+								break;
+							}
+						}
+					}
+					if (flag > 0)
+						outImg[i * w + j] = 255;
+				}
+			}
+		}
+		memcpy(image, outImg, sizeof(BYTE) * width * height);
+	}
+}
+
+void CImgProView::erosion(BYTE* image, int w, int h, BYTE* outImg,int p)
+{
+	int rept;
+	memcpy(outImg, image, sizeof(BYTE) * width * height);
+	int i, j, m, n;
+	BYTE flag;
+	for (rept = 0; rept < p; rept++) {
+		for (i = 1; i < h - 1; i++) {
+			for (j = 1; j < w - 1; j++) {
+				if (image[i * w + j] == 255) {
+					flag = 0;
+					for (m = -1; m < 2; m++) {
+						for (n = -1; n < 2; n++) {
+							if (image[(i + m) * w + j + n] == 0) {
+								flag++;
+								break;
+							}
+						}
+					}
+					if (flag > 0)
+						outImg[i * w + j] = 0;
+				}
+			}
+		}
+		memcpy(image, outImg, sizeof(BYTE) * width * height);
+	}
 }
