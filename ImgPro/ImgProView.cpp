@@ -105,11 +105,12 @@ void CImgProView::OnDraw(CDC* pDC)
 	{
 		BYTE r, g, b;
 		BYTE gray;
-		if(huiimg)
+		lrgbimg = new BYTE[ lheight * lwidth*3 ];
+		if (huiimg)
 		{
-			for( i=0; i<height; i++)
+			for (i = 0; i < height; i++)
 			{
-				for( j=0; j<width; j++)
+				for (j = 0; j < width; j++)
 				{
 					if (huiimg[i * width + j] == 0) {
 						gray = 255;
@@ -117,15 +118,26 @@ void CImgProView::OnDraw(CDC* pDC)
 					}
 					else
 					{
-						b = rgbimg[i * 3 * width + j*3];
-						g = rgbimg[i * 3 * width + j *3+ 1];
-						r = rgbimg[i * 3 * width + j *3+ 2];
-						pDC->SetPixel(j + width + 10,i,RGB(r, g, b));
+						b = rgbimg[i * 3 * width + j * 3];
+						g = rgbimg[i * 3 * width + j * 3 + 1];
+						r = rgbimg[i * 3 * width + j * 3 + 2];
+						lrgbimg[(i - minh) * lwidth * 3 + (j - minw) * 3] = b;
+						lrgbimg[(i - minh) * lwidth * 3 + (j - minw) * 3 + 1] = g;
+						lrgbimg[(i - minh) * lwidth * 3 + (j - minw) * 3 + 2] = r;
+						pDC->SetPixel(j + width + 10, i, RGB(r, g, b));
 					}
-					
+
 
 				}
 			}
+			for (i = 0; i < lheight; i++)
+				for (j = 0; j < lwidth; j++) {
+					b = lrgbimg[i * 3 * lwidth + j * 3];
+					g = lrgbimg[i * 3 * lwidth + j * 3 + 1];
+					r = lrgbimg[i * 3 * lwidth + j * 3 + 2];
+					pDC->SetPixel(j + width*2 + 20 + lwidth, i, RGB(r, g, b));
+				}
+		
 		}
 	}
 }
@@ -465,8 +477,22 @@ void CImgProView::Color()
 	erosion(tempout2, width, height, tempout, 1);
 	dilation(tempout, width, height, huiimg1, 1);
 
-	int maxh, maxw, minh, minw;
+	
 	maxw = height / 10; maxh = width / 10; minh = 9 * height / 10; minw = 9 * width / 10;
+
+	for (i = 0; i < height; i++) {
+		int c = 0;
+		for (j = 0; j < width; j++) {
+			if (huiimg1[i * width + j] == 255)
+				c = c + 1;                                           
+		}
+		if (c < width / 20) {
+			for (j = 0; j < width; j++) {
+				huiimg1[i * width + j] =0;
+			}
+		}
+	}                                                          //去除大块污点
+
 
 	for (i = 0; i < height; i++) {
 		for (j = 0; j < width; j++) {
@@ -479,7 +505,7 @@ void CImgProView::Color()
 				}
 			}
 		}
-	}
+	}                                                                      //find    minw,maxw
 
 	for (i = 0; i < height; i++) {
 		for (j = 0; j < width; j++) {
@@ -492,16 +518,20 @@ void CImgProView::Color()
 				}
 			}
 		}
-	}
+	}                                                                      //find    minh,maxh
+
+	lwidth = maxw - minw;
+	lheight = maxh - minh;
 
 	for (i = 0; i < height; i++) {
 		for (j = 0; j < width; j++) {
 			if (i >= minh && i <= maxh && j <= maxw && j >= minw) {
-				huiimg[i * width + j] = 255;
+				huiimg1[i * width + j] = 255;
 			}
 			else {
-				huiimg[i * width + j] = 0;
+				huiimg1[i * width + j] = 0;
 			}
+			huiimg[i * width + j] = huiimg1[i * width + j];
 		}
 	}
 		flag=1;
