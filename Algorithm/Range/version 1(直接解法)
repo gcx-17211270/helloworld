@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int size = 0;
+	int queries = 0;
+	scanf(" %d %d ", &size, &queries);
+	
+	int a[size] ;
+	for(int i = 0; i < size; i++)
+	{
+		scanf("%d", &a[i]);
+		//printf("%d ",a[i]);	
+	}
+	int b[queries][2];
+	for(int i = 0; i < queries; i++)
+		for(int j = 0; j < 2; j++)
+			scanf("%d", &b[i][j]);
+	for(int i = 0; i< queries; i++)
+	{
+		int length = 0;
+		for(int k = 0; k < size; k++)
+			if( (a[k]>= b[i][0]) && (a[k] <= b[i][1] ) )
+				length++;
+		printf("%d\n",length);
+	}
+}
+
+
