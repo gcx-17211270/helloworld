@@ -1,6 +1,5 @@
+#include<stdlib.h>	//用两个固定大小的队列模拟栈
 
-//用两个固定大小的队列模拟栈
-#include<stdlib.h>
 #define LEN 20
 typedef struct queue{
 	int *data;
@@ -40,7 +39,7 @@ int deQueue(Queue *obj)
 	{
 		obj->rear = -1;
 		obj->head = -1;
-		rerurn a;
+		return a;
 	}
 	//队列一般情况
 	obj->head = (obj->head+1) % obj->size;
@@ -61,7 +60,7 @@ MyStack* myStackCreate()
 	MyStack *obj = (MyStack *)malloc(sizeof(MyStack));
 	obj->q1 = initQueue(LEN);
 	obj->q2 = initQueue(LEN);
-	rerurn obj;
+	return obj;
 }
 
 /** Push element x onto stack */
@@ -80,7 +79,7 @@ void myStackPush(MyStack* obj, int x)
 int myStackPop(MyStack* obj)
 {
 	//q2为非空时候，q2出队列知道q2只有一个元素
-	if（isEmpty(obj->q1))
+	if(isEmpty(obj->q1))
 	{
 		while(obj->q2->head != obj->q2->rear)
 		{
@@ -122,15 +121,15 @@ bool myStackEmpty(MyStack* obj)
 void myStackFree(MyStack* obj)
 {
 	free(obj->q1->data);
-	obj->q1->data = NULL:
+	obj->q1->data = NULL;
 	free(obj->q1);
-	obj->q1 = NULL:
+	obj->q1 = NULL;
 	free(obj->q2->data);
 	obj->q2->data = NULL;
 	free(obj->q2);
 	obj->q2 = NULL;
 	free(obj);
-	obj = NULL:
+	obj = NULL;
 }
 
 /*
