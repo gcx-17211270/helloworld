@@ -1,0 +1,65 @@
+typedef struct Node
+{
+    int x[9];
+    int y[9];
+    int size;
+}coordinate;
+
+int orangesRotting(int** grid, int gridSize, int* gridColSize){
+    coordinate a;
+    int N = 0;
+    int time = 0;
+    a.size = 0;
+    for(int i = 0; i < gridSize; i++)
+    {
+        for(int j = 0; j < gridColSize[0]; j++)
+        {
+            if(grid[i][j] == 2) 
+            {
+                a.x[N] = i;
+                a.y[N++] = j;
+                a.size++;
+            }
+        }
+    }
+    int lo = 0;
+    for(int i = 0 ; i < N; i++)
+    {
+        int t = N;
+        int xx, yy, b, c;
+        b = a.x[i];
+        c = a.y[i];
+        a.x[i] = 0;
+        a.y[i] = 0;
+        int x_list[] = {1, -1, 0, 0};
+        int y_list[] = {0, 0, 1, -1};
+        int o = 0;
+        for(int j = 0; j < 4; j++)
+        {
+            xx = b + x_list[j];
+            yy = c + y_list[j];
+            if(xx < 0 || yy < 0 || xx > 2 || yy > 2) 
+            {
+                continue;
+            }
+            if(grid[xx][yy] == 1) 
+            {
+                grid[xx][yy] = 2;
+                a.x[N] = xx;
+                a.y[N++] = yy;
+                o++;
+            }
+        }
+        if(o == 1) time++;
+        //if(o == 2) time--;
+    }
+    for(int i = 0; i < gridSize; i++)
+    {
+        for(int j = 0; j < gridColSize[0]; j++)
+        {
+            if(grid[i][j] == 1) return -1;
+        }
+    }
+    return time;
+}
+
