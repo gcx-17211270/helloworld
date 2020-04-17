@@ -54,7 +54,9 @@
   []()
   []()
 
-## [2.2 ImagePro](https://github.com/gcx-17211270/helloworld/tree/master/ImgPro)
+## [2.2 ImagePro文件夹](https://github.com/gcx-17211270/helloworld/tree/master/ImgPro)
   一次数组图像处理课程的大作业，使用C++语言MFC框架，对车牌的图像进行车牌位置的识别与车牌区域的分割
-## [2.3 计划完成情况](https://github.com/gcx-17211270/helloworld/tree/master/%E8%AE%A1%E5%88%92%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5)
+## [2.3 计划完成情况文件夹](https://github.com/gcx-17211270/helloworld/tree/master/%E8%AE%A1%E5%88%92%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5)
   疫情在家的学习记录，没有什么实际用处，用于熟悉GitHub的上传。
+## [2.4 Image文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Image)
+  试试能不能在文中插入一点图片。
