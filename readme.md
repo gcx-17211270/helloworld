@@ -1,17 +1,16 @@
 # 1.内容说明
 正如这些糟糕的文件名和重复而无意义的复杂路径，
 我是一个接触Github上不深的新人，我的英语不好，如有不便敬请谅解；
-我希望这个能保留我大学最后两年里的一些回忆，作为未来的念
+我希望这个能保留我大学最后两年里的一些回忆，作为未来的念想。
 我遇到了很多可爱的人，我看到了自己的不足，同时寻找着自己的自信，
 大学几年我还算懂了挺多，人生就要过去一段最后的轻松时光，加油！
 
 # 2.文件目录
 ## 2.1 [Algorithm文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm)
 ### [2.1.1 Range](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Range)
-  [原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1142)
-  清华OJ的一道题，学习邓俊辉老师的数据结构使用到的。
+  [原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1142)清华OJ的一道题，学习邓俊辉老师的数据结构使用到的。
 ### [2.1.2 Zuma](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Zuma)
-  [原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143)
+  [原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143)清华OJ的一道题，学习邓俊辉老师的数据结构使用到的。
 ### [2.1.3 leetcode题目，大部分是每日一题的打卡](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode)
   内容说明，题解0是自己写的算法，其他是看的其他题解的答案，你可以认为，所有题解0都是不可靠的。
   
