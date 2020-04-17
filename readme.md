@@ -1,18 +1,18 @@
-# 内容说明
+# 1.内容说明
 正如这些糟糕的文件名和重复而无意义的复杂路径，
 我是一个接触Github上不深的新人，我的英语不好，如有不便敬请谅解；
 我希望这个能保留我大学最后两年里的一些回忆，作为未来的念
 我遇到了很多可爱的人，我看到了自己的不足，同时寻找着自己的自信，
 大学几年我还算懂了挺多，人生就要过去一段最后的轻松时光，加油！
 
-## 文件目录
-### [Algorithm文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm)
-#### [Range](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Range)
+# 2.文件目录
+## 2.1[Algorithm文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm)
+### 2.1.1[Range](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Range)
   [原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1142)
   清华OJ的一道题，学习邓俊辉老师的数据结构使用到的。
-#### [Zuma](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Zuma)
+### 2.1.2[Zuma](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Zuma)
   [原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143)
-#### leetcode题目，大部分是每日一题的打卡
+### 2.1.3leetcode题目，大部分是每日一题的打卡
   内容说明，题解0是自己写的算法，其他是看的其他题解的答案，你可以认为，所有题解0都是不可靠的。
   
   已有内容：
@@ -55,7 +55,7 @@
   []()
   []()
 
-## [ImagePro](https://github.com/gcx-17211270/helloworld/tree/master/ImgPro)
+## 2.2[ImagePro](https://github.com/gcx-17211270/helloworld/tree/master/ImgPro)
   一次数组图像处理课程的大作业，使用C++语言MFC框架，对车牌的图像进行车牌位置的识别与车牌区域的分割
-## [计划完成情况](https://github.com/gcx-17211270/helloworld/tree/master/%E8%AE%A1%E5%88%92%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5)
+## 2.3[计划完成情况](https://github.com/gcx-17211270/helloworld/tree/master/%E8%AE%A1%E5%88%92%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5)
   疫情在家的学习记录，没有什么实际用处，用于熟悉GitHub的上传。
