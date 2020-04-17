@@ -1,3 +1,4 @@
+```c
 typedef struct Node
 {
     int x[9];
@@ -62,4 +63,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     }
     return time;
 }
-
+```
