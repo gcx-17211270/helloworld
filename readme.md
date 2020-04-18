@@ -12,7 +12,7 @@
 
 ## 2.文件目录
 
-### 2.1 [Algorithm文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm)
+### [2.1 Algorithm文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm)
 
 #### [2.1.1 TsinghuaOJ](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ)
 
