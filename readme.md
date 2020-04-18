@@ -16,7 +16,7 @@
 
 #### [2.1.1 TsinghuaOJ](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ)
 
-清华OJ上的一些题，学习邓俊辉老师的数据结构的作业题。
+&emsp;&emsp;清华OJ上的一些题，学习邓俊辉老师的数据结构的作业题。
 
 ##### &emsp;&emsp;[Range](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ/Range)&emsp;数轴上有n个点，对于任一闭区间 [a, b]，试计算落在其内的点数。[原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1142)
 
@@ -24,7 +24,7 @@
 
 #### [2.1.2 PTA](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/PTA)
 
-浙大数据结构课程2020年春的配套练习题。
+&emsp;&emsp;浙大数据结构课程2020年春的配套练习题。
 
 #### [2.1.3 leetcode题目，大部分是每日一题的打卡](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode)
 
