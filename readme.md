@@ -16,11 +16,15 @@
 
 #### [2.1.1 TsinghuaOJ](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ)
 
-##### &emsp;&emsp;[Range](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ/Range)&emsp;数轴上有n个点，对于任一闭区间 [a, b]，试计算落在其内的点数。[原题目描述]((https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1142))
+清华OJ上的一些题，学习邓俊辉老师的数据结构的作业题。
 
-##### &emsp;&emsp;[Zuma](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ/Zuma)&emsp;祖玛游戏开发商最近准备为玩家写一个游戏过程的回放工具。他们已经在游戏内完成了过程记录的功能，而回放功能的实现则委托你来完成。[原题目描述]((https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143))
+##### &emsp;&emsp;[Range](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ/Range)&emsp;数轴上有n个点，对于任一闭区间 [a, b]，试计算落在其内的点数。[原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1142)
+
+##### &emsp;&emsp;[Zuma](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ/Zuma)&emsp;祖玛游戏开发商最近准备为玩家写一个游戏过程的回放工具。他们已经在游戏内完成了过程记录的功能，而回放功能的实现则委托你来完成。[原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143)
 
 #### [2.1.2 PTA](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/PTA)
+
+浙大数据结构课程2020年春的配套练习题。
 
 #### [2.1.3 leetcode题目，大部分是每日一题的打卡](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode)
 
