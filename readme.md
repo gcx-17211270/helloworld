@@ -1,5 +1,5 @@
 # Hello, World!
-
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 ## 1.内容说明
 
 <p style="text-indent:2em">正如这些糟糕的文件名和重复而无意义的复杂路径，
