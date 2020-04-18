@@ -1,4 +1,4 @@
-# 从大学三年级下开始记录我大学最后的时间，努力做一些对的事情，让自己成为满足社会需要的人
+# Hello, World!
 
 ## 1.内容说明
 
@@ -34,8 +34,6 @@
   
   &ensp;&ensp;&ensp;&ensp;[22 括号生成 - 中 C、Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/22%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%20-%20%E4%B8%AD)
   
-&emsp;&emsp;  [22.括号生成 Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/22.%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90)
-  
   &ensp;&ensp;&ensp;&ensp;[255.用队列实现栈 C、Cpp、Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/255.%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88)
   
 &emsp;&emsp;  [289 生命游戏 - 中 C、Java、docx](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/289%20%E7%94%9F%E5%91%BD%E6%B8%B8%E6%88%8F%20-%20%E4%B8%AD)
@@ -66,10 +64,6 @@
 &#8195;&#8195;实现原理：根据车牌的颜色进行分割。  
 &#8194;&#8194;&#8194;&#8194;实现部分包括：1.使用公式将RGB色彩空间转换到HSV色彩空间；2.在HSV色彩空间内根据研究结果及实验实际所调整数据，划分出蓝色区域；3.对图像进行去噪，及去除大块污点，找出蓝色最密集区域（车牌区域）4.由于车牌一般为矩形，这里没有对应的车牌矫正程序，应该加上，将蓝色区域调整为一块矩形；5.将该块区域内图像分割出来；6.根据比例将车牌分割，获得车牌各个数字；7.上一步的实现也可以使用将图像转化为灰度图像，利用车牌数字和背景颜色差距较大，利用图像的不连续划分，如果能写出程序应该是更好的办法。
 
-### [2.3 计划完成情况文件夹](https://github.com/gcx-17211270/helloworld/tree/master/%E8%AE%A1%E5%88%92%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5)
-
-&#8195;&#8195;疫情在家的学习记录，没有什么实际用处，用于熟悉GitHub的上传。
-
-### [2.4 Image文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Image)
+### [2.3 Image文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Image)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试试能不能在文中插入一点图片。
