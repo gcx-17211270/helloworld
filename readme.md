@@ -30,59 +30,7 @@
 
 #### [2.1.3 leetcode题目，大部分是每日一题的打卡](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode)
 
-&emsp;&emsp;内容说明，题解0是自己写的算法，其他是看的其他题解的答案，你可以认为，所有题解0都是不可靠的。
-  
-&ensp;&ensp;&ensp;&ensp;已有内容：
-
-&emsp;&emsp;[8 字符串转换整数(atoi) - 中 C](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/8%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%95%B4%E6%95%B0(atoi)%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[22 括号生成 - 中 C、Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/22%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[42 接雨水 - 困难 C、Cpp、Java、docx](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/42%20%E6%8E%A5%E9%9B%A8%E6%B0%B4%20-%20%E5%9B%B0%E9%9A%BE)
-
-&emsp;&emsp;[56 合并区间 - 中 C](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/56%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[94 二叉树的中序遍历 - 中 Java 20200422](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/94%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%20-%20%E4%B8%AD)
-
-&emsp;&emsp;[102 二叉树的层序遍历 - 中 C、Java 20200423](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/102%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[103 二叉树的锯齿状遍历 - 中 C 20200423](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/103%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E7%8A%B6%E9%81%8D%E5%8E%86%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[107 二叉树的层次遍历Ⅱ - 简单 Java、C 20200423](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/107%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86%E2%85%A1%20-%20%E7%AE%80%E5%8D%95)
-
-&emsp;&emsp;[144 二叉树的前序遍历 - 中 Java 20200422](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/144%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[145 二叉树的后序遍历 - 困难 Java 20200422](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/145%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%20-%20%E5%9B%B0%E9%9A%BE)
-
-&ensp;&ensp;&ensp;&ensp;[199 二叉树的右视图 - 中 Java 20200423](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/199%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%8F%B3%E8%A7%86%E5%9B%BE%20-%20%E4%B8%AD)
-
-&emsp;&emsp;[206.反转链表 C](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/206.%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)
-
-&ensp;&ensp;&ensp;&ensp;[255.用队列实现栈 C、Cpp、Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/255.%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88)
-
-&emsp;&emsp;[289 生命游戏 - 中 C、Java、docx](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/289%20%E7%94%9F%E5%91%BD%E6%B8%B8%E6%88%8F%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[322 零钱兑换 - 中 C、Cpp、docx](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/322%20%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2%20-%20%E4%B8%AD)
-
-&emsp;&emsp;[355 设计Twitter - 中 C](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/355%20%E8%AE%BE%E8%AE%A1Twitter%20-%20%E4%B8%AD)
-
-&emsp;&emsp;[589 N叉树的前序遍历 - 简单 C、Java 20200424]()
-
-&emsp;&emsp;[590 N叉树的后序遍历 - 简单 Java 20200424]()
-
-&ensp;&ensp;&ensp;&ensp;[820 单词的压缩编码 - 中 C、docx](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/820%20%E5%8D%95%E8%AF%8D%E7%9A%84%E5%8E%8B%E7%BC%A9%E7%BC%96%E7%A0%81%20-%20%E4%B8%AD)
-
-&emsp;&emsp;[912 排序数组 - 中 C、Cpp、Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/912%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[1162 地图分析 - 中 C、docx文档](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/1162%20%E5%9C%B0%E5%9B%BE%E5%88%86%E6%9E%90%20-%20%E4%B8%AD)
-
-&emsp;&emsp;[5369 统计作战单位数 - 中 Cpp、Python、Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/5369%20%E7%BB%9F%E8%AE%A1%E4%BD%9C%E6%88%98%E5%8D%95%E4%BD%8D%E6%95%B0%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[面试题01.07 旋转矩阵 C、Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/%E9%9D%A2%E8%AF%95%E9%A2%9801.07%20%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5%20-%20%E4%B8%AD)
-
-&ensp;&ensp;&ensp;&ensp;[面试题10.01 合并排序的数组 C](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/%E9%9D%A2%E8%AF%9510.01%20%E5%90%88%E5%B9%B6%E6%8E%92%E5%BA%8F%E7%9A%84%E6%95%B0%E7%BB%84)
-
-&emsp;&emsp;[面试题16.03交点 Cpp、Python、Java](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/%E9%9D%A2%E8%AF%95%E9%A2%9816.03%E4%BA%A4%E7%82%B9)
+[已做的题目列表]()
 
 ### [2.2 ImagePro文件夹](https://github.com/gcx-17211270/helloworld/tree/master/ImgPro)
 
@@ -93,3 +41,9 @@
 ### [2.3 Image文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Image)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试试能不能在文中插入一点图片。
+
+### [2.4 Test文件夹]()
+
+&#8194;&#8194;&#8194;&#8194;在学习《数据结构与算法(Java语言描述)》中随手记录的一些代码，没有什么注释，大概只有配合着书能明白我在做什么吧。
+
+&#8194;&#8194;&#8194;&#8194;是在2020.04.07-2020.04.30期间阅读的本书。
