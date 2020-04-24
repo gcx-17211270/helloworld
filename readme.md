@@ -46,9 +46,9 @@
 
 &emsp;&emsp;[102 二叉树的层序遍历 - 中 C、Java 20200423](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/102%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86%20-%20%E4%B8%AD)
 
-&ensp;&ensp;&ensp;&ensp;[103 二叉树的锯齿状遍历 - 中 C 20200423]()
+&ensp;&ensp;&ensp;&ensp;[103 二叉树的锯齿状遍历 - 中 C 20200423](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/103%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E7%8A%B6%E9%81%8D%E5%8E%86%20-%20%E4%B8%AD)
 
-&ensp;&ensp;&ensp;&ensp;[107 二叉树的层次遍历Ⅱ - 简单 Java、C 20200423]()
+&ensp;&ensp;&ensp;&ensp;[107 二叉树的层次遍历Ⅱ - 简单 Java、C 20200423](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/107%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86%E2%85%A1%20-%20%E7%AE%80%E5%8D%95)
 
 &emsp;&emsp;[144 二叉树的前序遍历 - 中 Java 20200422](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/144%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%20-%20%E4%B8%AD)
 
@@ -65,6 +65,10 @@
 &ensp;&ensp;&ensp;&ensp;[322 零钱兑换 - 中 C、Cpp、docx](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/322%20%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2%20-%20%E4%B8%AD)
 
 &emsp;&emsp;[355 设计Twitter - 中 C](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/355%20%E8%AE%BE%E8%AE%A1Twitter%20-%20%E4%B8%AD)
+
+&emsp;&emsp;[589 N叉树的前序遍历 - 简单 C、Java 20200424]()
+
+&emsp;&emsp;[590 N叉树的后序遍历 - 简单 Java 20200424]()
 
 &ensp;&ensp;&ensp;&ensp;[820 单词的压缩编码 - 中 C、docx](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode/820%20%E5%8D%95%E8%AF%8D%E7%9A%84%E5%8E%8B%E7%BC%A9%E7%BC%96%E7%A0%81%20-%20%E4%B8%AD)
 
