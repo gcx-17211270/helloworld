@@ -30,7 +30,7 @@
 
 #### [2.1.3 leetcode题目，大部分是每日一题的打卡](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode)
 
-[已做的题目列表]()
+&#8195;&#8195;[已做的题目列表](https://github.com/gcx-17211270/helloworld/blob/master/%E5%B7%B2%E5%81%9A%E7%9A%84%E9%A2%98%E7%9B%AE.md)
 
 ### [2.2 ImagePro文件夹](https://github.com/gcx-17211270/helloworld/tree/master/ImgPro)
 
@@ -42,8 +42,10 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试试能不能在文中插入一点图片。
 
-### [2.4 Test文件夹]()
+### [2.4 Test文件夹](https://github.com/gcx-17211270/helloworld/tree/master/test)
 
 &#8194;&#8194;&#8194;&#8194;在学习《数据结构与算法(Java语言描述)》中随手记录的一些代码，没有什么注释，大概只有配合着书能明白我在做什么吧。
 
 &#8194;&#8194;&#8194;&#8194;是在2020.04.07-2020.04.30期间阅读的本书。
+
+&#8195;&#8195;打开方式：用eclipse打开，使用了jdk 13.0.2，代码在Src目录下。
