@@ -5,5 +5,5 @@ package graph;
 */
 
 public interface Graph {
-
+	public static final int UndirectedGraph = 0;
 }
