@@ -2,6 +2,14 @@
 
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
+## 0.膜拜大神
+
+&emsp;&emsp;
+
+### &emsp;&emsp;[你的编程能力从什么时候开始突飞猛进？ - MutexLock的回答 - 知乎](https://www.zhihu.com/question/356351510/answer/1148885728)
+
+&emsp;&emsp;
+
 ## 1.内容说明
 
 <p style="text-indent:2em">正如这些糟糕的文件名和重复而无意义的复杂路径，
