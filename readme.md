@@ -57,4 +57,4 @@
 
 ## 3.近期的打算和对未来的想法
 
-[1.2020.09.26 的想法——考研准备中](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20200926.md)
+&#8195;&#8195;[1.2020.09.26 的想法——考研准备中](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20200926.md)
