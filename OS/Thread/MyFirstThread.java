@@ -3,7 +3,11 @@ public class MyFirstThread extends Thread{
     public void run()
     {
         for (  ; i < 100; i++)
-            System.out.println(getName() + " " + i);
+		{
+            System.out.print(getName() + " " + i + "\t");
+			if (i % 5 == 0)
+				System.out.println();
+		}
     }
     public static void main(String[] args)
     {
