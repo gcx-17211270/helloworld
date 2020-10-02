@@ -8,6 +8,8 @@
 
 ### &emsp;&emsp;[你的编程能力从什么时候开始突飞猛进？ - MutexLock的回答 - 知乎](https://www.zhihu.com/question/356351510/answer/1148885728)
 
+### &emsp;&emsp;&emsp;&emsp;[C++到底是如何从代码到游戏的？ 作者 / hanjie zou](https://daily.zhihu.com/story/9728564?utm_campaign=in_app_share&utm_medium=Android&utm_source=wechat_session)
+
 &emsp;&emsp;
 
 ## 1.内容说明
