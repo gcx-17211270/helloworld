@@ -67,8 +67,16 @@
 
 ## 3.可喜可贺学到操作系统了
 
-&#8195;&#8195;第一个学会的概念，进程线程，Thread类，使用它第一次观察到电脑里分时进行的程序
+### [3.1 Thread](https://github.com/gcx-17211270/helloworld/tree/master/OS/Thread)
+
+- 第一个学会的概念，进程线程，Thread类，使用它第一次观察到电脑里分时进行的程序
+- 了解了，线程安全、同步，同步锁，死锁
+- 使用线程通信，再结合Java网络编程的基础知识，抄写的一个本地多进程聊天小工具
+
+### [3.2 Internet](https://github.com/gcx-17211270/helloworld/tree/master/OS/Internet)
 
 ## 4.近期的打算和对未来的想法
 
 &#8195;&#8195;[1.2020.09.26 的想法——考研准备中](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20200926.md)
+
+&#8194;&#8194;&#8194;&#8194;[2.2020.10.04 的想法——做一个热爱生活的人](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20201004.md)
