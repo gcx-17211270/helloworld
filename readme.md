@@ -65,7 +65,7 @@
 &#8195;&#8195;信息与信号处理综合实验，要求见ppt，实现见报告
 &#8195;&#8195;安卓平台，Java语言
 
-### 2.6 [可喜可贺学到操作系统了](https://github.com/gcx-17211270/helloworld/tree/master/OS)
+### [2.6 可喜可贺学到操作系统了](https://github.com/gcx-17211270/helloworld/tree/master/OS)
 
 - 第一个学会的概念，进程线程，Thread类，使用它第一次观察到电脑里分时进行的程序
 - 了解了，线程安全、同步，同步锁，死锁
