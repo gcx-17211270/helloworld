@@ -12,6 +12,8 @@
  * 
  * 执行用时：1 ms, 在所有 Java 提交中击败了95.96%的用户
  * 内存消耗：38.9 MB, 在所有 Java 提交中击败了47.70%的用户
+ * 
+ * 时间复杂度为 O(N*logN), 空间复杂度为 O(1)。
  */
 class MaximumsSubarrayDicideConquer
 {
