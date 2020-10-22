@@ -76,6 +76,10 @@
 - 了解了，线程安全、同步，同步锁，死锁
 - 使用线程通信，再结合Java网络编程的基础知识，抄写的一个本地多进程聊天小工具
 
+### [2.7 深入理解计算机系统](https://github.com/gcx-17211270/helloworld/tree/master/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F)
+
+学习笔记、感想、练习题。
+
 ## 3.近期的打算和对未来的想法
 
 &#8195;&#8195;[1.2020.09.26 的想法——考研准备中](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20200926.md)
