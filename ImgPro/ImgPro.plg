@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImgPro - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Victor\AppData\Local\Temp\RSPF5A1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ImgPro.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\程序\实验一\ImgPro\ImgProView.cpp"
+]
+Creating command line "cl.exe @C:\Users\Victor\AppData\Local\Temp\RSPF5A1.tmp" 
+Creating temporary file "C:\Users\Victor\AppData\Local\Temp\RSPF5A2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImgPro.pdb" /debug /machine:I386 /out:"Debug/ImgPro.exe" /pdbtype:sept 
+".\Debug\ImgPro.obj"
+".\Debug\ImgProDoc.obj"
+".\Debug\ImgProView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ImgPro.res"
+]
+Creating command line "link.exe @C:\Users\Victor\AppData\Local\Temp\RSPF5A2.tmp"
+<h3>Output Window</h3>
+Compiling...
+ImgProView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ImgPro.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
