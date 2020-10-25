@@ -1,0 +1,12 @@
+     1	total 8
+     2	drwxrwxrwx 1 root         root         4096 Oct 26 01:10 Algorithm
+     3	drwxrwxrwx 1 root         root         4096 Oct 26 01:10 Image
+     4	drwxrwxrwx 1 root         root         4096 Oct 26 01:10 ImgPro
+     5	drwxrwxrwx 1 root         root         4096 Oct 26 01:10 OS
+     6	drwxrwxrwx 1 root         root         4096 Oct 26 01:10 OurPlan
+     7	-rwxrwxrwx 1 root         root         5713 Oct 23 02:24 readme.md
+     8	drwxrwxrwx 1 root         root         4096 Oct 26 01:10 test
+     9	-rw-r--r-- 1 gcx-17211270 gcx-17211270    0 Oct 26 01:16 test.txt
+    10	drwxrwxrwx 1 root         root         4096 Oct 26 01:11 信号与信息处理综合实验
+    11	-rwxrwxrwx 1 root         root         8889 Oct 23 10:46 已做的题目.md
+    12	drwxrwxrwx 1 root         root         4096 Oct 26 01:11 深入理解计算机系统
