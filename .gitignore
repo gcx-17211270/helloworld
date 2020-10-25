@@ -395,3 +395,6 @@ hs_err_pid*
 *.o
 *.s
 *.exe
+test/.project
+test/.project
+信号与信息处理综合实验/实验一/videoProcessing/.settings/org.eclipse.buildship.core.prefs
