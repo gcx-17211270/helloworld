@@ -5,7 +5,7 @@
 extern "C"
 {
 #endif
-#include "ArrayList.h"
+#include "../list/ArrayList.h"
 #include <stdio.h>
 #define TRUE 1
 #define FALSE 0

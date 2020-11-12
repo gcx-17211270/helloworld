@@ -1,5 +1,14 @@
+/*****************************************************************//**
+ * \file   cardinal_sort.h
+ * \brief  使用这个文档时，应该把main.c后缀名改为main.cpp，按C++语法来编译就能通过
+ * 
+ * \author 32353
+ * \date   November 2020-11-11
+ *********************************************************************/
 #ifndef __CARDINAL_SORT_HELLO_QIU__
 #define __CARDINAL_SORT_HELLO_QIU__
+
+#define _cpluscplus
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -11,10 +20,6 @@
 #define KeyType int
 #define InfoType void*
 
-#ifdef _cplucplus
-extern "C"
-{
-#endif 
 	typedef struct StaticListNode
 	{
 		KeyType keys[MAX_NUM_OF_KEY];	//关键字
@@ -47,7 +52,4 @@ extern "C"
 	void creat_keys(KeyType keys[MAX_NUM_OF_KEY], int val, int len);
 	int get_keys(KeyType keys[], int len);
 
-#ifdef _cpluscplus
-}
-#endif
 #endif

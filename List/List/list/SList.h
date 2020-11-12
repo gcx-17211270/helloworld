@@ -12,11 +12,6 @@ extern "C"
 {
 #endif
 
-	//定义判断两个值是否相等的数据类型
-	typedef int (*SListEqualFunc)(SListValue value1, SListValue value2);
-	//在排序时比较链表两个节点数据的类型
-	typedef int (*SListCompareFunc)(SListValue value1, SListValue value2);
-
 	//单向链表结构
 	typedef struct _SListEntry SListEntry;
 	//链表迭代器结构，用于遍历链表
@@ -24,6 +19,11 @@ extern "C"
 
 	//指向链表中存储的数据的指针
 	typedef void* SListValue;
+
+	//定义判断两个值是否相等的数据类型
+	typedef int (*SListEqualFunc)(SListValue value1, SListValue value2);
+	//在排序时比较链表两个节点数据的类型
+	typedef int (*SListCompareFunc)(SListValue value1, SListValue value2);
 
 	//单链表的节点结构
 	struct _SListEntry
@@ -100,7 +100,7 @@ extern "C"
 	void slist_sort(SListEntry** list, SListCompareFunc compare_func);
 
 	//用于内部快速排序的函数，返回排序后的尾节点
-	static SListEntry* slist_sort_internal(SListEntry** list, SListCompareFunc);
+	static SListEntry* slist_sort_internal(SListEntry** list, SListCompareFunc compare_func);
 	
 #ifdef __cpluscplus
 }

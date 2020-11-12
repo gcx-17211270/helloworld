@@ -1,6 +1,8 @@
 //使用#define来进行相应的操作，如果没有待执行的代码则只有.h与.c文件
 
+//链表求和
 //#define _ADT_HELLO_QIU_
+
 //逆波兰表达式求值
 //#define _EVALRPN_HELLO_QIU_
 
@@ -23,35 +25,35 @@
 //#define _CARDINAL_SORT_HELLO_QIU_
 
 //临时调试
-//#define _TEMP_DEBUG_HELLO_QIU_
+#define _TEMP_DEBUG_HELLO_QIU_
 
 #ifdef _EVALRPN_HELLO_QIU_
-#include "evalRPN.h"
+#include "algorithm/evalRPN.h"
 #include <stdlib.h>
 #endif
 
 #ifdef _ADT_HELLO_QIU_
-#include "ADT.h"
+#include "list/ADT.h"
 #endif
 
 #ifdef _ArrayList_HELLO_QIU_
-#include "ArrayList.h"
+#include "list/ArrayList.h"
 #endif
 
 #ifdef _ADD_TWO_NUM_H_HELLO_QIU_
-#include "addTwoNum.h"
+#include "algorithm/addTwoNum.h"
 #endif
 
 #ifdef _OLMATRIX_HELLO_QIU_
-#include "olMatrix.h"
+#include "matrix/olMatrix.h"
 #endif
 
 #ifdef _SORT_HELLO_QIU_
-#include "Sort.h"
+#include "sort/Sort.h"
 #endif
 
 #ifdef _CARDINAL_SORT_HELLO_QIU_
-#include "cardinal_sort.h"
+#include "sort/cardinal_sort.h"
 #endif
 
 #ifdef _TEMP_DEBUG_HELLO_QIU_
@@ -59,7 +61,7 @@
 #endif
 
 #ifdef _SLOWEST_KEY_HELLO_QIU_
-#include "slowestKey.h"
+#include "algorithm/slowestKey.h"
 #endif
 
 int main(int argc, int* argv[])

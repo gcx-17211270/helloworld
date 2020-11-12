@@ -1,3 +1,10 @@
+/*****************************************************************//**
+ * \file   linkedstack.c
+ * \brief  
+ * 
+ * \author 32353
+ * \date   November 2020-11-11
+ *********************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include "linkedstack.h"

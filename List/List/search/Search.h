@@ -1,5 +1,11 @@
+/*****************************************************************//**
+ * \file   Search.h
+ * \brief  
+ * 
+ * \author 32353
+ * \date   November 2020-11-11
+ *********************************************************************/
 //查找使用的函数
-
 #define KeyType double
 #define OrderType int
 #define StaticSearchTable KeyType*
