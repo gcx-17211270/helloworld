@@ -48,9 +48,6 @@
     <ClCompile Include="sort\cardinal_sort.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="sort\hashtable.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="sort\Sort.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -70,6 +67,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="search\hashtable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tree\BiTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tree\expression_tree.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -107,9 +113,6 @@
     <ClInclude Include="sort\cardinal_sort.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="sort\hashtable.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="sort\Sort.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -126,6 +129,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="algorithm\slowestKey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="search\hashtable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\BiTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\expression_tree.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

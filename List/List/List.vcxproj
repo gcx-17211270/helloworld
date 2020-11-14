@@ -145,7 +145,7 @@
     <ClCompile Include="sort\cardinal_sort.cc" />
     <ClCompile Include="matrix\densematrix.c" />
     <ClCompile Include="algorithm\evalRPN.c" />
-    <ClCompile Include="sort\hashtable.c" />
+    <ClCompile Include="search\hashtable.c" />
     <ClCompile Include="list\linkedstack.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="matrix\olMatrix.c" />
@@ -158,6 +158,8 @@
     <ClCompile Include="matrix\SpareMatrix.c" />
     <ClCompile Include="algorithm\slowestKey.c" />
     <ClCompile Include="temp.cpp" />
+    <ClCompile Include="tree\BiTree.c" />
+    <ClCompile Include="tree\expression_tree.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\addTwoNum.h" />
@@ -166,7 +168,7 @@
     <ClInclude Include="sort\cardinal_sort.h" />
     <ClInclude Include="matrix\densematrix.h" />
     <ClInclude Include="algorithm\evalRPN.h" />
-    <ClInclude Include="sort\hashtable.h" />
+    <ClInclude Include="search\hashtable.h" />
     <ClInclude Include="list\linkedstack.h" />
     <ClInclude Include="matrix\olMatrix.h" />
     <ClInclude Include="matrix\RLSMatrix.h" />
@@ -178,6 +180,9 @@
     <ClInclude Include="matrix\SparseMatrix.h" />
     <ClInclude Include="temp.h" />
     <ClInclude Include="algorithm\slowestKey.h" />
+    <ClInclude Include="tree\BiTree.h" />
+    <ClInclude Include="tree\expression_tree.h" />
+    <ClInclude Include="tree\tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

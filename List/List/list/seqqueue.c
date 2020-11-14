@@ -9,12 +9,6 @@
 //数组的长度
 #define MaxQueueSize 20
 
-struct _SeqQueue
-{
-	SeqQueueValue* array;
-	int len;
-};
-
 SeqQueue* seqqueue_new(void)
 {
 	SeqQueue* seqqueue = (SeqQueue*)malloc(sizeof(SeqQueue));

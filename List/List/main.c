@@ -1,4 +1,4 @@
-//使用#define来进行相应的操作，如果没有待执行的代码则只有.h与.c文件
+//使用#define来进行相应的操作
 
 //链表求和
 //#define _ADT_HELLO_QIU_
@@ -24,8 +24,11 @@
 //基数排序
 //#define _CARDINAL_SORT_HELLO_QIU_
 
+//表达式树
+#define _EXPRESSION_TREE_HELLO_QIU_
+
 //临时调试
-#define _TEMP_DEBUG_HELLO_QIU_
+//#define _TEMP_DEBUG_HELLO_QIU_
 
 #ifdef _EVALRPN_HELLO_QIU_
 #include "algorithm/evalRPN.h"
@@ -64,8 +67,13 @@
 #include "algorithm/slowestKey.h"
 #endif
 
+#ifdef _EXPRESSION_TREE_HELLO_QIU_
+#include "tree/expression_tree.h"
+#endif
+
 int main(int argc, int* argv[])
 {
+	printf("%s %s\n", __DATE__, __TIME__);
 #ifdef _ADT_HELLO_QIU_
 	ADT_callback();
 #endif
@@ -96,6 +104,10 @@ int main(int argc, int* argv[])
 
 #ifdef _CARDINAL_SORT_HELLO_QIU_
 	cardinal_sort_callback();
+#endif
+
+#ifdef _EXPRESSION_TREE_HELLO_QIU_
+	create_expression_tree_callback();
 #endif
 
 #ifdef _TEMP_DEBUG_HELLO_QIU_
