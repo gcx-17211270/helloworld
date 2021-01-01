@@ -63,7 +63,7 @@
 
 &#8194;&#8194;&#8194;&#8194;是在2020.04.07-2020.04.30期间阅读的本书。
 
-&#8195;&#8195;打开方式：用eclipse打开，使用了JavaSE-13，代码在Src目录下。
+&#8195;&#8195;打开方式：用eclipse打开，使用了Jdk-13，代码在Src目录下。
 
 ### [2.5 信号与信息处理综合实验文件夹](https://github.com/gcx-17211270/helloworld/tree/master/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C)
 
@@ -85,3 +85,5 @@
 &#8195;&#8195;[1.2020.09.26 的想法——考研准备中](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20200926.md)
 
 &#8194;&#8194;&#8194;&#8194;[2.2020.10.04 的想法——做一个热爱生活的人](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20201004.md)
+
+&#8194;&#8194;&#8194;&#8194;[3.2020.12.15 的想法——试着接受社会毒打吧](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20201215.md)

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithm\addTwoNum.c" />
+    <ClCompile Include="algorithm\fourSum.c" />
     <ClCompile Include="list\ADT.c" />
     <ClCompile Include="list\ArrayList.c" />
+    <ClCompile Include="priorityQueue\BinHeap.c" />
     <ClCompile Include="sort\cardinal_sort.cc" />
     <ClCompile Include="matrix\densematrix.c" />
     <ClCompile Include="algorithm\evalRPN.c" />
@@ -160,11 +162,14 @@
     <ClCompile Include="temp.cpp" />
     <ClCompile Include="tree\BiTree.c" />
     <ClCompile Include="tree\expression_tree.c" />
+    <ClCompile Include="tree\splayTree.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\addTwoNum.h" />
+    <ClInclude Include="graph\graph.h" />
     <ClInclude Include="list\ADT.h" />
     <ClInclude Include="list\ArrayList.h" />
+    <ClInclude Include="priorityQueue\BinHeap.h" />
     <ClInclude Include="sort\cardinal_sort.h" />
     <ClInclude Include="matrix\densematrix.h" />
     <ClInclude Include="algorithm\evalRPN.h" />

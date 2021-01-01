@@ -25,10 +25,10 @@
 //#define _CARDINAL_SORT_HELLO_QIU_
 
 //表达式树
-#define _EXPRESSION_TREE_HELLO_QIU_
+//#define _EXPRESSION_TREE_HELLO_QIU_
 
 //临时调试
-//#define _TEMP_DEBUG_HELLO_QIU_
+#define _TEMP_DEBUG_HELLO_QIU_
 
 #ifdef _EVALRPN_HELLO_QIU_
 #include "algorithm/evalRPN.h"

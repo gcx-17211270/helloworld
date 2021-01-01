@@ -196,6 +196,9 @@ void create_expression_tree_callback(void) {
     printf(" = %.1f\n", rst);
 }
 
+void in_order_print(BiTreeNode* node) {}
+void post_order_free(BiTreeNode* node) {}
+
 int do_expression_calculate(char* exp, double* rst) {
     int l = strlen(exp);
     BiTree* tree = bitree_new();

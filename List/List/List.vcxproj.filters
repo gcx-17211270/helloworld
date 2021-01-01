@@ -78,6 +78,15 @@
     <ClCompile Include="tree\expression_tree.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="tree\splayTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="priorityQueue\BinHeap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\fourSum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="temp.h">
@@ -141,6 +150,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tree\expression_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="priorityQueue\BinHeap.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

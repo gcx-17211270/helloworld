@@ -16,8 +16,14 @@ void swap(int& a, int& b)
 
 void temp_callback()
 {
-	int a = 1, b = 2;
-	swap(a, b);
-	printf("a = %d b = %d\n", a, b);
+	//int a = 1, b = 2;
+	//swap(a, b);
+	//printf("a = %d b = %d\n", a, b);
+
+	for (int i = 20; i < 10; i++)
+	{
+		printf("Error");
+	}
+
 	return;
 }
