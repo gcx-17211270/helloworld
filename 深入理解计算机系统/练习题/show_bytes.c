@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: 32353
+ * @Date: 2020-10-26 01:50:07
+ * @LastEditors: 32353
+ * @LastEditTime: 2021-01-02 14:48:44
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -39,6 +47,14 @@ void test_show_bytes(int val)
 
 int main(int argc, int* argv[])
 {
+    while (1)
+    {
+        float x = 0;
+        printf("Please input a float number:\n");
+        scanf("%f", &x);
+        printf("The float %f int memory is:", x);
+        show_float(x);
+    }
     //12345=0x00003039
     //12345.0 = 0x4640E400
     //test_show_bytes(12345);

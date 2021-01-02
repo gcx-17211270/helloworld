@@ -68,7 +68,7 @@
 ### [2.5 信号与信息处理综合实验文件夹](https://github.com/gcx-17211270/helloworld/tree/master/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C)
 
 &#8195;&#8195;信息与信号处理综合实验，要求见ppt，实现见报告
-&#8195;&#8195;安卓平台，Java语言
+<p> &#8195;&#8195;安卓平台 Java语言 使用grandle管理项目
 
 ### [2.6 可喜可贺学到操作系统了](https://github.com/gcx-17211270/helloworld/tree/master/OS)
 
@@ -79,11 +79,3 @@
 ### [2.7 深入理解计算机系统](https://github.com/gcx-17211270/helloworld/tree/master/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F)
 
 学习笔记、感想、练习题。
-
-## 3.近期的打算和对未来的想法
-
-&#8195;&#8195;[1.2020.09.26 的想法——考研准备中](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20200926.md)
-
-&#8194;&#8194;&#8194;&#8194;[2.2020.10.04 的想法——做一个热爱生活的人](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20201004.md)
-
-&#8194;&#8194;&#8194;&#8194;[3.2020.12.15 的想法——试着接受社会毒打吧](https://github.com/gcx-17211270/helloworld/blob/master/OurPlan/20201215.md)
