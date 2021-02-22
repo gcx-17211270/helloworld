@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: 32353
+ * @Date: 2020-10-26 01:50:06
+ * @LastEditors: 32353
+ * @LastEditTime: 2021-02-04 00:04:57
+-->
 # Hello, World!
 
 - [0.膜拜大神](#0.膜拜大神)
@@ -46,6 +54,8 @@
 #### [2.1.3 leetcode题目，大部分是每日一题的打卡](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode)
 
 &#8195;&#8195;[已做的题目列表](https://github.com/gcx-17211270/helloworld/blob/master/%E5%B7%B2%E5%81%9A%E7%9A%84%E9%A2%98%E7%9B%AE.md)
+
+&emsp;&emsp;这并不是什么对算法的深刻讨论，或者是一个可靠的参考答案内容，只是在刷题过程中的一个简单记录，希望有一天能够看到过去的自己也觉得幼稚吧。
 
 ### [2.2 ImagePro文件夹](https://github.com/gcx-17211270/helloworld/tree/master/ImgPro)
 
