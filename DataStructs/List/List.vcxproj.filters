@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="temp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="list\ArrayList.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="list\SList.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\densematrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\olMatrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\RLSMatrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\SpareMatrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="list\seqqueue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="list\seqstack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="list\linkedstack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\cardinal_sort.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\Sort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="search\Search.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\addTwoNum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="list\ADT.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\evalRPN.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\slowestKey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="search\hashtable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tree\BiTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tree\expression_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tree\splayTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="priorityQueue\BinHeap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\fourSum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="temp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list\ArrayList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list\SList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\densematrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\olMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\RLSMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\SparseMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list\seqqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list\seqstack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list\linkedstack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\cardinal_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\Sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="search\Search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\addTwoNum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list\ADT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\evalRPN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\slowestKey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="search\hashtable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\BiTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\expression_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="priorityQueue\BinHeap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

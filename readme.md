@@ -4,7 +4,7 @@
  * @Author: 32353
  * @Date: 2020-10-26 01:50:06
  * @LastEditors: 32353
- * @LastEditTime: 2021-02-04 00:04:57
+ * @LastEditTime: 2021-03-21 10:31:43
 -->
 # Hello, World!
 
@@ -37,21 +37,7 @@
 
 ## 2.文件目录
 
-### [2.1 Algorithm文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm)
-
-#### [2.1.1 TsinghuaOJ](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ)
-
-&emsp;&emsp;清华OJ上的一些题，学习邓俊辉老师的数据结构的作业题。
-
-##### &emsp;&emsp;[Range](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ/Range)&emsp;数轴上有n个点，对于任一闭区间 [a, b]，试计算落在其内的点数。[原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1142)
-
-##### &emsp;&emsp;[Zuma](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/Tsinghua%20OJ/Zuma)&emsp;祖玛游戏开发商最近准备为玩家写一个游戏过程的回放工具。他们已经在游戏内完成了过程记录的功能，而回放功能的实现则委托你来完成。[原题目描述](https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143)
-
-#### [2.1.2 PTA](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/PTA)
-
-&emsp;&emsp;浙大数据结构课程2020年春的配套练习题。
-
-#### [2.1.3 leetcode题目，大部分是每日一题的打卡](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode)
+### [2.1 leetcode题目，大部分是每日一题的打卡](https://github.com/gcx-17211270/helloworld/tree/master/Algorithm/leetcode)
 
 &#8195;&#8195;[已做的题目列表](https://github.com/gcx-17211270/helloworld/blob/master/%E5%B7%B2%E5%81%9A%E7%9A%84%E9%A2%98%E7%9B%AE.md)
 
@@ -67,13 +53,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试试能不能在文中插入一点图片。
 
-### [2.4 Test文件夹](https://github.com/gcx-17211270/helloworld/tree/master/test)
+### [2.4 DataStructs文件夹](https://github.com/gcx-17211270/helloworld/tree/master/test)
 
-&#8194;&#8194;&#8194;&#8194;在学习《数据结构与算法(Java语言描述)》中随手记录的一些代码，没有什么注释，大概只有配合着书能明白我在做什么吧。
+&#8194;&#8194;&#8194;&#8194;是在2020.04~2020.06之间复习数据结构与算法时候的一些代码，主要包括了各种数据结构的实现代码，包括C语言实现与Java实现。
 
-&#8194;&#8194;&#8194;&#8194;是在2020.04.07-2020.04.30期间阅读的本书。
+C语言实现在点进去之后的List.sln工程中，以线性表为名是因为在开始的时候是打算将各类的算法实现分开，最后发现比较难以管理就都放在了一起，具体的各内容包括线性表List（线性表定义、栈Stack、队列Queue，分数组链表两种实现）、优先队列（堆算法）、matrix（矩阵、稀疏矩阵的压缩算法、三元组表、十字链表等）、tree（树的ADT、二叉树、表达式树）、graph（图的ADT），以及搜索、排序算法。基本上是与《数据结构》严蔚敏老师的教材结构一致，参考书是前面那本与《数据结构（c语言版）》董树锋，郭创新 著。
 
-&#8195;&#8195;打开方式：用eclipse打开，使用了Jdk-13，代码在Src目录下。
+Java版是在C的基础上，利用了一些Java自带的数据结构，进行的学习，由于可以参考一些Jdk中定义好的源码部分，并且不用考虑指针、内存的问题，代码可以更注重逻辑而非实现的过程。代码位于文件夹中DataStructsInJava/src中，主要包括了栈、队列、树（比较多）、图（少量），参考书是《数据结构与算法(Java语言描述)》周鹏 三峡大学理学院 以及《算法4》。（2020.04.07-2020.04.30。当时使用的是Jdk-13。）
 
 ### [2.5 信号与信息处理综合实验文件夹](https://github.com/gcx-17211270/helloworld/tree/master/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C)
 
