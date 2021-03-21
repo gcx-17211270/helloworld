@@ -4,7 +4,7 @@
  * @Author: 32353
  * @Date: 2020-10-26 01:50:06
  * @LastEditors: 32353
- * @LastEditTime: 2021-03-21 16:38:12
+ * @LastEditTime: 2021-03-21 16:39:07
 -->
 
 # Hello, World!
@@ -40,7 +40,6 @@
         <img src=Image/mmexport1572186344881.jpg width=108 height=135>
         <img src=Image/mmexport1572185887250.jpg width=108 height=135>
     </div>
-    <hr >
 </html>
 
 ## 2.文件目录
