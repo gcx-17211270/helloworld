@@ -4,7 +4,7 @@
  * @Author: 32353
  * @Date: 2020-10-26 01:50:06
  * @LastEditors: 32353
- * @LastEditTime: 2021-03-21 16:39:07
+ * @LastEditTime: 2021-03-21 16:40:36
 -->
 
 # Hello, World!
@@ -62,13 +62,13 @@ C语言实现在点进去之后的List.sln工程中，以线性表为名是因�
 
 Java版是在C的基础上，利用了一些Java自带的数据结构，进行的学习，由于可以参考一些Jdk中定义好的源码部分，并且不用考虑指针、内存的问题，代码可以更注重逻辑而非实现的过程。代码位于文件夹中DataStructsInJava/src中，主要包括了栈、队列、树（比较多）、图（少量），参考书是《数据结构与算法(Java语言描述)》周鹏 三峡大学理学院 以及《算法4》。（2020.04.07-2020.04.30。当时使用的是Jdk-13。）
 
-### [2.4 可喜可贺学到操作系统了](https://github.com/gcx-17211270/helloworld/tree/master/OS)
+### [2.4 可喜可贺学到操作系统了](https://github.com/gcx-17211270/helloworld/tree/master/OS)(后面没更新了，等有时间了再写吧)
 
 - 第一个学会的概念，进程线程，Thread类，使用它第一次观察到电脑里分时进行的程序
 - 了解了，线程安全、同步，同步锁，死锁
 - 使用线程通信，再结合Java网络编程的基础知识，抄写的一个本地多进程聊天小工具
 
-### [2.5 深入理解计算机系统](https://github.com/gcx-17211270/helloworld/tree/master/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F)
+### [2.5 深入理解计算机系统](https://github.com/gcx-17211270/helloworld/tree/master/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F)(后面没更新了，等有时间了再写吧)
 
 学习笔记、感想、练习题。
 
