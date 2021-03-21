@@ -4,7 +4,7 @@
  * @Author: 32353
  * @Date: 2020-10-26 01:50:06
  * @LastEditors: 32353
- * @LastEditTime: 2021-03-21 10:31:43
+ * @LastEditTime: 2021-03-21 16:28:49
 -->
 # Hello, World!
 
@@ -43,17 +43,11 @@
 
 &emsp;&emsp;这并不是什么对算法的深刻讨论，或者是一个可靠的参考答案内容，只是在刷题过程中的一个简单记录，希望有一天能够看到过去的自己也觉得幼稚吧。
 
-### [2.2 ImagePro文件夹](https://github.com/gcx-17211270/helloworld/tree/master/ImgPro)
+### [2.2 基于信号频谱分析的方法实现音乐识别](https://github.com/gcx-17211270/helloworld/tree/master/基于信号频谱分析的方法实现音乐识别)
 
-&#8194;&#8194;&#8194;&#8194;一次数组图像处理课程的大作业，使用C++语言MFC框架，对车牌的图像进行车牌位置的识别与车牌区域的分割.<br/>
-&#8195;&#8195;实现原理：根据车牌的颜色进行分割。  
-&#8194;&#8194;&#8194;&#8194;实现部分包括：1.使用公式将RGB色彩空间转换到HSV色彩空间；2.在HSV色彩空间内根据研究结果及实验实际所调整数据，划分出蓝色区域；3.对图像进行去噪，及去除大块污点，找出蓝色最密集区域（车牌区域）4.由于车牌一般为矩形，这里没有对应的车牌矫正程序，应该加上，将蓝色区域调整为一块矩形；5.将该块区域内图像分割出来；6.根据比例将车牌分割，获得车牌各个数字；7.上一步的实现也可以使用将图像转化为灰度图像，利用车牌数字和背景颜色差距较大，利用图像的不连续划分，如果能写出程序应该是更好的办法。
+《数字信号处理》课程的大作业，通过Matlab对声音信号的读取，频谱分析，比较，得到识别结果，预先存储的歌曲信息中只有几首歌，总体而言比较简单，主要是对频谱信号的分析处理。（2019.06.09）
 
-### [2.3 Image文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Image)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试试能不能在文中插入一点图片。
-
-### [2.4 DataStructs文件夹](https://github.com/gcx-17211270/helloworld/tree/master/test)
+### [2.3 DataStructs文件夹](https://github.com/gcx-17211270/helloworld/tree/master/test)
 
 &#8194;&#8194;&#8194;&#8194;是在2020.04~2020.06之间复习数据结构与算法时候的一些代码，主要包括了各种数据结构的实现代码，包括C语言实现与Java实现。
 
@@ -61,17 +55,20 @@ C语言实现在点进去之后的List.sln工程中，以线性表为名是因�
 
 Java版是在C的基础上，利用了一些Java自带的数据结构，进行的学习，由于可以参考一些Jdk中定义好的源码部分，并且不用考虑指针、内存的问题，代码可以更注重逻辑而非实现的过程。代码位于文件夹中DataStructsInJava/src中，主要包括了栈、队列、树（比较多）、图（少量），参考书是《数据结构与算法(Java语言描述)》周鹏 三峡大学理学院 以及《算法4》。（2020.04.07-2020.04.30。当时使用的是Jdk-13。）
 
-### [2.5 信号与信息处理综合实验文件夹](https://github.com/gcx-17211270/helloworld/tree/master/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C)
-
-&#8195;&#8195;信息与信号处理综合实验，要求见ppt，实现见报告
-<p> &#8195;&#8195;安卓平台 Java语言 使用grandle管理项目
-
-### [2.6 可喜可贺学到操作系统了](https://github.com/gcx-17211270/helloworld/tree/master/OS)
+### [2.4 可喜可贺学到操作系统了](https://github.com/gcx-17211270/helloworld/tree/master/OS)
 
 - 第一个学会的概念，进程线程，Thread类，使用它第一次观察到电脑里分时进行的程序
 - 了解了，线程安全、同步，同步锁，死锁
 - 使用线程通信，再结合Java网络编程的基础知识，抄写的一个本地多进程聊天小工具
 
-### [2.7 深入理解计算机系统](https://github.com/gcx-17211270/helloworld/tree/master/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F)
+### [2.5 深入理解计算机系统](https://github.com/gcx-17211270/helloworld/tree/master/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F)
 
 学习笔记、感想、练习题。
+
+### [2.6 学习JDK源码](https://github.com/gcx-17211270/helloworld/tree/master/学习JDK源码)
+
+近期(2021.03.12-2020.04)在看的，准备总结一下。大概分为五个方面，常用类、集合、IO、异常处理、类加载与反射，慢慢加油吧。
+
+### [2.7 Image文件夹](https://github.com/gcx-17211270/helloworld/tree/master/Image)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在文中插入的一点图片。
